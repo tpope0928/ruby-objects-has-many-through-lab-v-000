@@ -6,7 +6,10 @@ class Patient
   end
   
   def appointments
-    Appointment.all.select{|appo
+    Appointment.all.select {|appointment| appointment.patient == self}
+  end
+  
+  
     
   
   
