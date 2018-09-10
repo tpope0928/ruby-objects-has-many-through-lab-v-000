@@ -10,6 +10,6 @@ class artist
   end
   
   def self.all
-    
+    @
   
 end
