@@ -13,7 +13,7 @@ class Artist
     @@all
   end
   
-  def new_song
+  def new_song(artist, son)
     
   end
   
