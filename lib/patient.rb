@@ -5,7 +5,8 @@ class Patient
     @name = name
   end
   
-  
+  def appointment
+    
   
   
   
