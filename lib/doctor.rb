@@ -16,6 +16,7 @@ class Doctor
     Appointment.new(name, self, genre)
   end
   
-  
+  def appointments
+    
     
 end
