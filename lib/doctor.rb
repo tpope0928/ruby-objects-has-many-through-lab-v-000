@@ -8,7 +8,9 @@ class Doctor
     @@all << self
   end
   
-  
+  def self
+    self.all
+  end
   
   
 end
