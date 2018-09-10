@@ -6,7 +6,7 @@ class Patient
   end
   
   def appointments
-    Appointment.all{|appo
+    Appointment.all.select{|appo
     
   
   
