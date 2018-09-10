@@ -14,7 +14,7 @@ class Song
     @@all
   end
   
-  def genre
-    
+  def genres
+    songs.map { |song| song.genre  }
   end
 end
