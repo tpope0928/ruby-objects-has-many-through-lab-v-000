@@ -8,8 +8,8 @@ class Doctor
     @@all << self
   end
   
-  def self
-    self.all
+  def self.all
+    @@all
   end
   
   
