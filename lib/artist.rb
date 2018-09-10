@@ -1,4 +1,4 @@
-class artist
+class Artist
   
   @@all = []
   
