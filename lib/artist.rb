@@ -18,6 +18,6 @@ class Artist
   end
   
   def songs
-    Songs 
+    Songs.all.select |
   
 end
